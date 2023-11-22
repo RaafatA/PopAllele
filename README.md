@@ -13,5 +13,11 @@ PopAllele/pop_run.py --help
 ```
 
 ```bash
+usage: pop_run.py [-h] [--QRd CSV_FILE] [--QRe QR_CODE_IMAGE]
+
+options:
+  -h, --help           show this help message and exit
+  --QRd CSV_FILE       Generate QR codes from a CSV file
+  --QRe QR_CODE_IMAGE  Generate QR codes from a QR code image
 
 ```
