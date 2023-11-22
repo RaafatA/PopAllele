@@ -7,3 +7,11 @@ cd PopAllele
 conda env create -f environment.yml 
 conda activate PopAllele
 ```
+#### Usage Documentation
+``` bash 
+PopAllele/pop_run.py --help
+```
+
+```bash
+
+```
