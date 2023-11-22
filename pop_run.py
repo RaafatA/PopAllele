@@ -157,13 +157,13 @@ def main():
       try:
           marker, lines = genotyping_data(args.csv_file)
           qrdecoding(marker, lines)
-          encode_qr("combined_qr_code.png")
           print("QR codes generated successfully.")
       except Exception as e:
           print(f"Error: {e}")
 
   elif args.qr_code_image:
       try:
+          encode_qr(args.qr_code_image)
           # Add your logic for processing QR code images here
           pass
       except Exception as e:
