@@ -141,12 +141,9 @@ def main():
                   [__|                                             
   """)
   print("PopAllele Version: 1.0")
+  
+  parser = argparse.ArgumentParser()
 
-  parser = argparse.ArgumentParser(description="QR Code Generator and Decoder")
-
-  # Help option
-  parser.add_argument('-h', '--help', action='help', default=argparse.SUPPRESS,
-                      help='Show this help message and exit.')
 
   # Command to generate QR codes from a CSV file
   parser.add_argument('--QRd', dest='csv_file', help='Generate QR codes from a CSV file')
