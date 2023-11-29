@@ -8,4 +8,4 @@ conda env create -f environment.yml
 conda activate PopAllele
 ```
 For documentation please refer to the wiki:
-[https://github.com/RaafatA/PopAllele/wiki](https://github.com/RaafatA/PopAllele/wiki)
+https://github.com/RaafatA/PopAllele/wiki
