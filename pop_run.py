@@ -146,10 +146,10 @@ def main():
 
 
   # Command to generate QR codes from a CSV file
-  parser.add_argument('--QRd', dest='csv_file', help='Encode QR from Genotyping Data (CSV file)')
+  parser.add_argument('--QRe', dest='csv_file', help='Encode QR from Genotyping Data (CSV file)')
 
   # Command to generate QR codes from an image
-  parser.add_argument('--QRe', dest='qr_code_image', help='Decode QR codes from a QR code image')
+  parser.add_argument('--QRd', dest='qr_code_image', help='Decode QR codes from a QR code image')
 
   args = parser.parse_args()
 
